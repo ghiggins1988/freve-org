@@ -59,6 +59,30 @@
     .section-alt {
         background: #171717;
     }
+    .signup-form {
+        max-width: 520px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+    }
+    .signup-form input[type="email"] {
+        flex: 1 1 260px;
+        padding: 14px 18px;
+        border-radius: 28px;
+        border: 1px solid #444;
+        background: #0f0f0f;
+        color: #fff;
+        font-size: 16px;
+    }
+    .signup-form input::placeholder {
+        color: #888;
+    }
+    .signup-form button {
+        cursor: pointer;
+        background: transparent;
+    }
     footer {
         padding: 60px 20px;
         background: #000;
@@ -80,7 +104,7 @@
     <div class="subtitle">Freedom. Ritual. Evolution. Vibe. Energy.</div>
     <h1>FREVE</h1>
     <p>FREVE is a rebellion brand. Built for those who stopped waiting for change and started becoming it. From digital tools to grooming, supplements to power — FREVE fuels the evolution of self‑made lives.</p>
-    <a href="#digital" class="btn">Explore</a>
+    <a href="#signup" class="btn">Get early access</a>
 </section>
 
 <!-- DIGITAL PRODUCTS -->
@@ -88,7 +112,7 @@
     <div class="subtitle">FREVE DIGITAL</div>
     <h1>MINDSET FUEL</h1>
     <p>Drop excuses. Download discipline. Wallpapers. Ritual packs. Pocket guides. Audio rants. Our digital drops are tools for those chasing freedom with grit.</p>
-    <a href="#join" class="btn">Enter the Shift</a>
+    <a href="#signup" class="btn">Enter the Shift</a>
 </section>
 
 <!-- SUPPLEMENTS -->
@@ -96,7 +120,7 @@
     <div class="subtitle">FREVE FUEL</div>
     <h1>SUPPLEMENTS</h1>
     <p>From gummy creatine to vitamin stacks, we’re building FREVE health drops for grinders. Functional fuel for minds and bodies under pressure. No fluff — just what works.</p>
-    <a href="#join" class="btn">Coming Soon</a>
+    <a href="#signup" class="btn">Coming Soon</a>
 </section>
 
 <!-- TECH GEAR -->
@@ -104,7 +128,7 @@
     <div class="subtitle">FREVE FLOW</div>
     <h1>TECH THAT MOVES</h1>
     <p>Power banks, USB‑C chargers, wireless headphones — FREVE tech keeps your flow live and your gear ready. For builders. For rebels. For people on the go.</p>
-    <a href="#join" class="btn">Stay Charged</a>
+    <a href="#signup" class="btn">Stay Charged</a>
 </section>
 
 <!-- GROOMING -->
@@ -112,7 +136,7 @@
     <div class="subtitle">FREVE GRIT</div>
     <h1>STYLE + SELF‑RESPECT</h1>
     <p>From grooming tools to skincare wipes — FREVE brings you the clean‑up kit for confidence. Look sharp. Move clean. Own your space.</p>
-    <a href="#join" class="btn">Level Up Your Look</a>
+    <a href="#signup" class="btn">Level Up Your Look</a>
 </section>
 
 <!-- HOME / LIFESTYLE -->
@@ -120,7 +144,7 @@
     <div class="subtitle">FREVE DAILY</div>
     <h1>LIFE TOOLS</h1>
     <p>We don’t just build brands — we build homes that work. Kitchen gear, home essentials, and smart tools for everyday rebels. Power your life — not just your image.</p>
-    <a href="#join" class="btn">Gear Drop Incoming</a>
+    <a href="#signup" class="btn">Gear Drop Incoming</a>
 </section>
 
 <!-- JOIN / CTA -->
@@ -128,7 +152,19 @@
     <div class="subtitle">JOIN THE MOVEMENT</div>
     <h1>FREVE IS COMING</h1>
     <p>Want first access to exclusive drops, digital tools, and the full FREVE experience? Join the tribe. Be part of something bigger.</p>
-    <a href="mailto:contact@freve.org?subject=Join%20the%20FREVE%20Tribe" class="btn">Join the Tribe</a>
+    <a href="#signup" class="btn">Join the Tribe</a>
+</section>
+
+<!-- SIGNUP -->
+<section class="section-dark" id="signup">
+    <div class="subtitle">GET EARLY ACCESS</div>
+    <h1>EMAIL SIGNUP</h1>
+    <p>Be first in line for new drops, rituals, and tools. We only send the essentials — no noise.</p>
+    <!-- Replace the action URL below with your Mailchimp/ConvertKit embed URL -->
+    <form class="signup-form" action="https://example.com/subscribe" method="post">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn">Notify Me</button>
+    </form>
 </section>
 
 <footer>
